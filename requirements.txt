@@ -1,0 +1,13 @@
+numpy
+pandas
+torch
+cvxpy
+functools
+matplotlib
+Pillow
+sklearn
+scipy
+torchdiffeq
+tqdm
+
+coptpy version == 8.0.3
