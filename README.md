@@ -14,7 +14,7 @@ The experiments are coded in Python 3.8 and conducted on a personal computer equ
 
 The proposed method is illustrated below.&#x20;
 
-![](SDRO_Framework-17847780955941.png)
+![](SDRO_Framework.png)
 
 In the following, we introduce all folders and files, as well as their usage procedures.&#x20;
 
