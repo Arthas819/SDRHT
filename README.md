@@ -14,7 +14,7 @@ The experiments are coded in Python 3.8 and conducted on a personal computer equ
 
 The proposed method is illustrated below.&#x20;
 
-![](SDRO_Framework.png)
+![](Plotting/SDRO_Framework.png)
 
 In the following, we introduce all folders and files, as well as their usage procedures.&#x20;
 
@@ -32,13 +32,13 @@ These programs will be called by the main programs.&#x20;
 
 ### 2.1 In Folder "**DataGenerators**"
 
-This folder includes all data generators, which return training and testing set to the main programs.
+This folder includes all data generators, which return training and testing sets to the main programs.
 
 | Files                        | Descriptions                                                                                                                                     |
 | :--------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Data_Gaussian_Mixture.py** | Data generator for the **Gaussian Mixture** dataset.                                                                                             |
 | **Data_MNIST.py**            | Data generator for the **MNIST** dataset.                                                                                                        |
-| **Data_Higgs.py**            | Data generator for the **Higgs** dataset. Note that this dataset need to be downloaded at <https://archive.ics.uci.edu/dataset/280/higgs> first. |
+| **Data_Higgs.py**            | Data generator for the **Higgs** dataset. Note that this dataset needs to be downloaded at <https://archive.ics.uci.edu/dataset/280/higgs> first. |
 
 ### 2.2 In Folder "**Models**"
 
@@ -46,9 +46,9 @@ This folder includes all methods for solving the hypothesis testing problem.
 
 | **Files**                | Descriptions                                                                                                                                                                                  |
 | :----------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **SinkhornDRO.py**       | Train our SDRO hypothesis testing model by Adam algorithm.                                                                                                                                    |
-| **WDRO.py**              | Train WDRO (Wasserstein DRO) hypothesis testing model as a convex program (Xie et al., 2021) .                                                                                                |
-| **FDRO.py**              | Train FDRO (Flow-based DRO) hypothesis testing model by method in Xu et al., 2024.                                                                                                            |
+| **SinkhornDRO.py**       | Train our SDRO hypothesis testing model using the Adam algorithm.                                                                                                                                    |
+| **WDRO.py**              | Train WDRO (Wasserstein DRO) hypothesis testing model as a convex program (Xie et al., 2021).                                                                                                |
+| **FDRO.py**              | Train FDRO (Flow-based DRO) hypothesis testing model by the method in Xu et al., 2024.                                                                                                            |
 | **StandardBaselines.py** | Train classical baselines, including GMM (Gaussian Mixture Model, only for Gaussian mixture dataset), LR (Linear Regression), SVM (Support Vector Machine), and 3NN (3-layer neural network). |
 
 ### 2.3 In Folder "**Sinkhorn**"
@@ -71,7 +71,7 @@ The only file in this folder draws all computational results and outputs them to
 | :-------------- | :------------------------------------------- |
 | **Plotting.py** | Functions to draw all computational results. |
 
-# Pre-requisites
+# Prerequisites
 
     pip install -r requirements.txt
 
