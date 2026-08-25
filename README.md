@@ -2,7 +2,17 @@
 
 This library (Sinkhorn Distributionally Robust Hypothesis Testing) is an open source project that is based on our paper:&#x20;
 
-**_Sinkhorn Distributionally Robust Hypothesis Testing_** 
+**_Generative Neural Networks for Sinkhorn Distributionally Robust Hypothesis Testing_**  (<https://arxiv.org/abs/2608.22746>).&#x20;
+
+Citation: 
+```latex
+@article{zhang2026generative,
+  title={Generative Neural Networks for Sinkhorn Distributionally Robust Hypothesis Testing},
+  author={Zhang, Fenglin and Liu, Teyan and Wang, Jie},
+  journal={arXiv preprint arXiv:2608.22746},
+  year={2026}
+}
+```
 
 
 The experiments are coded in Python 3.8 and conducted on a personal computer equipped with an Intel Core i9-13900HX CPU, 32 GB of RAM, and an Nvidia GeForce RTX 4060 GPU. All GPU computations are performed using PyTorch 2.0.1 (utilizing CUDA 11.8).
