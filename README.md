@@ -7,7 +7,7 @@ This library (Sinkhorn Distributionally Robust Hypothesis Testing) is an open so
 Citation: 
 ```latex
 @article{zhang2026generative,
-  title={Generative Neural Networks for Sinkhorn Distributionally Robust Hypothesis Testing},
+  title={Generative Neural Networks for {S}inkhorn Distributionally Robust Hypothesis Testing},
   author={Zhang, Fenglin and Liu, Teyan and Wang, Jie},
   journal={arXiv preprint arXiv:2608.22746},
   year={2026}
