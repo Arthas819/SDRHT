@@ -1,6 +1,6 @@
 # Generative Neural Networks for Sinkhorn Distributionally Robust Hypothesis Testing (SDRHT)
 
-**Note: We will update our code, experimental results, and manuscript before 2027.**
+**Note: We will update our code, experimental results, and manuscript soon.**
 
 This library (Sinkhorn Distributionally Robust Hypothesis Testing) is an open source project that is based on our paper:&#x20;
 
